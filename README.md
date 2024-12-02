@@ -1,10 +1,41 @@
-# Advent of Code 2024/ Swift
+# Advent of Code 2024
 
-This repository contains my solutions for the Advent of Code 2024 puzzles. I will be solving the puzzles using Swift.
+This repository contains my solutions for the [Advent of Code 2024](https://adventofcode.com/2024) challenge. 
+Each day's problem is solved using a variety of programming languages to explore and learn different tools and ecosystems.
 
-## Running a Soulution
-Each day's solution is in its own folder under the Sources/ directory. To run a solution, navigate to the directory for the day you want to run and run the following command:
+## Running Solutions
 
+### Swift
+Navigate to the `swift` directory and use Swift Package Manager (SPM):
 ```bash
-swift run AdventOfCodeSwift
+cd swift
+swift run
 ```
+
+To run tests:
+```bash
+swift test
+```
+
+### Python
+Navigate to the day's directory and run the solution:
+```bash
+cd python/Day01
+python3 main.py
+```
+
+Run tests (if applicable):
+```bash
+python3 -m unittest test.py
+```
+
+## Progress
+
+| Day | Python | Swift |
+|-----|--------|-------|
+| 01  |  ❌    | ✅ ✅   |
+| 02  | ❌     | ❌    |
+
+## Notes
+- Each solution directory includes an `input.txt` file containing the puzzle input.
+- Contributions and suggestions are welcome!
